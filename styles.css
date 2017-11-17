@@ -1,0 +1,90 @@
+body {
+    background: url("img.jpg");
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box-header {
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #A5A5E5;
+}
+
+.box-cont {
+    border: 1px solid #E0E0E0;
+    margin: 10px;
+}
+
+.box {
+    padding: 10px 10px 10px 30px;
+    background: white;
+    display: block;
+    overflow: hidden;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.one-third {
+    width: calc(30% - 5px);
+    float: left;
+    padding: 5px;
+    min-height: 250px;
+    border: 1px solid black;
+    background-image: url("img.jpg");
+}
+
+.mylink {
+    color: red;
+    text-decoration: none;
+}
+
+.mylink:hover {
+    color: blue;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.mylink:visited {
+    color: purple;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.mylink:active {
+    color: green;
+}
+
+table {
+    border: 0px;
+}
+
+table th,
+table td {
+    font-size: 15px !important;
+    text-align: center !important;
+    border: 0px;
+    padding: 5px;
+}
+
+.ntable {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.ntable th,
+.ntable td {
+    font-size: 15px !important;
+    text-align: center !important;
+    border: 1px solid black;
+    padding: 5px;
+}
